@@ -2,6 +2,7 @@ import React from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 import CompanyList from "../companies/CompanyList";
 import CompanyDetail from "../companies/CompanyDetail";
+import Homepage from "../homepage/Hompepage";
 
 function Routes() {
   return (
