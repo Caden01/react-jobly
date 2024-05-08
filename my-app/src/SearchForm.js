@@ -15,7 +15,7 @@ function SearchForm({ searchFor }) {
 
   return (
     <div>
-      <form>
+      <form onSubmit={handleSubmit}>
         <input name="searchTerm" value={searchTerm} onChange={handleChange} />
         <button type="submit">Submit</button>
       </form>

@@ -1,7 +1,6 @@
 import React, { useState, useContext } from "react";
 import JoblyApi from "../api/api";
 import UserContext from "../auth/UserContext";
-import { useContext } from "react";
 
 function ProfileForm() {
   const { currentUser, setCurrentUser } = useContext(UserContext);
@@ -93,4 +92,4 @@ function ProfileForm() {
   );
 }
 
-export default SignupForm;
+export default ProfileForm;
