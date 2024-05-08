@@ -3,6 +3,7 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import CompanyList from "../companies/CompanyList";
 import CompanyDetail from "../companies/CompanyDetail";
 import Homepage from "../homepage/Hompepage";
+import JobList from "../jobs/JobList";
 
 function Routes() {
   return (
@@ -17,6 +18,9 @@ function Routes() {
         </Route>
         <Route exact path="/companies/:handle">
           <CompanyDetail />
+        </Route>
+        <Route exact path="/jobs">
+          <JobList />
         </Route>
 
         <Redirect to="/" />
